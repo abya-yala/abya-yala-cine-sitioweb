@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Festival de Cine Indígena de Wallmapu",
+      "latitude": -38.7391,
+      "longitude": -72.5907,
+      "country": "Chile",
+      "year_founded": 2007
+    },
+    {
+      "id": "2",
+      "name": "FICMAYAB - Festival Internacional de Cine Maya",
+      "latitude": 14.6349,
+      "longitude": -90.5069,
+      "country": "Guatemala",
+      "year_founded": 2013
+    },
+    {
+      "id": "3",
+      "name": "Festival de Cine y Video de las Primeras Naciones de Abya Yala",
+      "latitude": 19.4326,
+      "longitude": -99.1332,
+      "country": "México",
+      "year_founded": 2009
+    },
+    {
+      "id": "4",
+      "name": "Festival Internacional de Cine Indígena de Michoacán",
+      "latitude": 19.7060,
+      "longitude": -101.1950,
+      "country": "México",
+      "year_founded": 2012
+    },
+    {
+      "id": "5",
+      "name": "CLACPI - Festival Internacional de Cine y Comunicación de los Pueblos Indígenas",
+      "latitude": -16.5000,
+      "longitude": -68.1500,
+      "country": "Bolivia",
+      "year_founded": 1985
+    }
+  ]
+}

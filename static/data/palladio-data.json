@@ -1,0 +1,26 @@
+{
+    "nodes": [
+      {
+        "id": "1",
+        "label": "Point A",
+        "lat": "37.7749",
+        "lon": "-122.4194",
+        "type": "location"
+      },
+      {
+        "id": "2",
+        "label": "Point B",
+        "lat": "40.7128",
+        "lon": "-74.0060",
+        "type": "location"
+      }
+
+    ],
+    "links": [
+      {
+        "source": "1",
+        "target": "2",
+        "value": 5
+      }
+    ]
+  }  
