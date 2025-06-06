@@ -37,21 +37,28 @@ const config = {
     locales: ['en'],
   },
 
+    // Add Palladio scripts globally
   scripts: [
-    // Load the Palladio components script with better loading attributes
+    // Gallery component
     {
-      src: 'https://cdn.jsdelivr.net/gh/simonwiles/palladio-webcomponents@main/dist/palladio-webcomponents.js',
-      async: false,  // Don't use async to ensure it loads in order
-      defer: true,   // But defer execution until page loads
+      src: 'https://cdn.jsdelivr.net/npm/palladio-webcomponents@0.5/palladio-gallery-component.js',
+      type: 'module',
+      async: true,
+    },
+    // Network/Graph component
+    {
+      src: 'https://cdn.jsdelivr.net/npm/palladio-webcomponents@0.5/palladio-graph-component.js',
+      type: 'module',
+      async: true,
+    },
+    // Map component
+    {
+      src: 'https://cdn.jsdelivr.net/npm/palladio-webcomponents@0.5/palladio-map-component.js',
+      type: 'module',
+      async: true,
     },
   ],
-  stylesheets: [
-    {
-      href: 'https://cdn.jsdelivr.net/gh/simonwiles/palladio-webcomponents@main/dist/palladio-webcomponents.css',
-      type: 'text/css',
-    },
-  ],
-
+  
   presets: [
     [
       'classic',

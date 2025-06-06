@@ -1,0 +1,73 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "proyecto/Imágenes",
+              "path": "/docs/proyecto/Imágenes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "proyecto/tecnologias",
+              "path": "/docs/proyecto/tecnologias",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "publicaciones/claude-palladio-web-components-tutorial",
+              "path": "/docs/publicaciones/claude-palladio-web-components-tutorial",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "publicaciones/hacia-una-ontología-del-cine-de-abya-yala",
+              "path": "/docs/publicaciones/hacia-una-ontología-del-cine-de-abya-yala",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "publicaciones/palladio",
+              "path": "/docs/publicaciones/palladio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "publicaciones/ponencia-dh2025",
+              "path": "/docs/publicaciones/ponencia-dh2025",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/el-proyecto",
+              "path": "/docs/category/el-proyecto",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/publicaciones",
+              "path": "/docs/category/publicaciones",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

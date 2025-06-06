@@ -1,0 +1,28 @@
+{
+  "id": "publicaciones/palladio",
+  "title": "Visualización con Palladio",
+  "description": "Esta visualización muestra datos geográficos relacionados con los festivales de cine autóctono en Abya Yala:",
+  "source": "@site/docs/publicaciones/palladio.md",
+  "sourceDirName": "publicaciones",
+  "slug": "/publicaciones/palladio",
+  "permalink": "/docs/publicaciones/palladio",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/publicaciones/palladio.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Visualización con Palladio",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ponencia DH2025",
+    "permalink": "/docs/publicaciones/ponencia-dh2025"
+  },
+  "next": {
+    "title": "Tutorial la integración de Palladio en Docusaurus",
+    "permalink": "/docs/publicaciones/claude-palladio-web-components-tutorial"
+  }
+}

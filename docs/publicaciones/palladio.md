@@ -3,29 +3,18 @@ title: Visualización con Palladio
 sidebar_position: 3
 ---
 
-
-# Palladio Visualization
-
-Below is an interactive data visualization created with Palladio:
-
 # Visualización del Cine de Abya Yala
 
 Esta visualización muestra datos geográficos relacionados con los festivales de cine autóctono en Abya Yala:
 
-import PalladioVisualization from '@site/src/components/PalladioVisualization';
-import TestComponent from '@site/src/components/TestComponent';
+# <script type="module" src="/static/js/palladio-map-component.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/palladio-webcomponents@0.5/palladio-map-component.js"></script>
 
+## Palladio Map Visualization with Mapbox Tiles
 
-<PalladioVisualization 
-  type="map"
-  dataSource="/data/sample-data.json"
-  mapTiles="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-  height="600px"
-/>
-
-## Información adicional
-
-Los festivales de cine indígena representan espacios importantes para la visibilización de las producciones audiovisuales de los pueblos originarios. Esta visualización permite observar su distribución geográfica en Abya Yala.
-
-{/* We can also test if components are loading properly */}
-<TestComponent />
+<palladio-map
+  height="600px" width="730px"
+  zoom-to-fit
+  mapbox-token="pk.eyJ1IjoicnBhcmVqYSIsImEiOiJjbTkxZmNjY2IwMGR6Mm1xMXlxanVqbWMwIn0.bGFLNby6gr4GUWaE6Yiz_A"
+  project-url="http://localhost:3000//data/palladio-data-sample.json">
+</palladio-map>

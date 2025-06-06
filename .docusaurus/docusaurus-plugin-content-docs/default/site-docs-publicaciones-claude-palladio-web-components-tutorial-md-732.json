@@ -1,0 +1,23 @@
+{
+  "id": "publicaciones/claude-palladio-web-components-tutorial",
+  "title": "Tutorial la integración de Palladio en Docusaurus",
+  "description": "I'll create a step-by-step tutorial for incorporating Palladio web components into your Docusaurus website. Let's begin by integrating the necessary JavaScript and HTML to render Palladio visualizations in your Markdown pages.",
+  "source": "@site/docs/publicaciones/claude-palladio-web-components-tutorial.md",
+  "sourceDirName": "publicaciones",
+  "slug": "/publicaciones/claude-palladio-web-components-tutorial",
+  "permalink": "/docs/publicaciones/claude-palladio-web-components-tutorial",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/publicaciones/claude-palladio-web-components-tutorial.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Tutorial la integración de Palladio en Docusaurus",
+    "sidebar_posion": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Visualización con Palladio",
+    "permalink": "/docs/publicaciones/palladio"
+  }
+}
