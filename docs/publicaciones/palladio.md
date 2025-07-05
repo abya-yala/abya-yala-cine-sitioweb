@@ -9,7 +9,7 @@ Esta visualización muestra datos geográficos relacionados con los festivales d
 
 # <script type="module" src="/static/js/palladio-map-component.js"></script>
 
-<script type="module" src="https://cdn.jsdelivr.net/npm/palladio-webcomponents@0.6.0-1/palladio-map-component.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/palladio-webcomponents@0.5/palladio-map-component.js"></script>
 
 ## Palladio Map Visualization with Mapbox Tiles
 
