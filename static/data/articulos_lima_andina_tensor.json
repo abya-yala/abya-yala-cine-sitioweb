@@ -2,7 +2,10 @@
   "embeddings": [
     {
       "tensorName": "articulos",
-      "tensorShape": [],
+      "tensorShape": [
+        3637,  
+        100
+      ],
       "tensorPath": "https://raw.githubusercontent.com/parejar/lima-andina-text-analytics/refs/heads/main/articulos_w2v_sg_30_vecs.tsv",
       "metadataPath": "https://raw.githubusercontent.com/parejar/lima-andina-text-analytics/refs/heads/main/articulos_w2v_sg_30_words.tsv",
     }
